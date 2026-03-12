@@ -1,0 +1,71 @@
+﻿{
+  "nodeId": "cb09bb6a-5b83-4dd8-88f1-2db8ea6d656b",
+  "destinationId": "a8654cdf-4328-47de-81fa-c495589e30c1",
+  "outputDirectory": "./output",
+  "utmZone": "30U",
+  "objects": [
+    {
+      "name": "UAV-1",
+      "updateFrequencyHz": 1.0,
+      "classification": {
+        "type": "Aircraft",
+        "confidence": 0.95,
+        "subClasses": [
+          { "type": "UAV", "confidence": 0.9, "level": 1 }
+        ]
+      },
+      "movement": {
+        "pattern": "ORBIT",
+        "centerPoint": {
+          "latitude": 51.1739726374,
+          "longitude": -1.82237671048,
+          "altitude": 788.0
+        },
+        "radiusM": 500.0,
+        "speedMps": 15.0
+      }
+    },
+    {
+      "name": "Person-1",
+      "updateFrequencyHz": 0.5,
+      "classification": {
+        "type": "Human",
+        "confidence": 0.8,
+        "subClasses": [
+          { "type": "Male", "confidence": 0.6, "level": 1 }
+        ]
+      },
+      "movement": {
+        "pattern": "FIGURE_8",
+        "centerPoint": {
+          "latitude": 51.1745,
+          "longitude": -1.8230,
+          "altitude": 100.0
+        },
+        "radiusM": 50.0,
+        "speedMps": 1.5
+      }
+    },
+    {
+      "name": "Vehicle-1",
+      "updateFrequencyHz": 2.0,
+      "classification": {
+        "type": "Vehicle",
+        "confidence": 0.99,
+        "subClasses": [
+          { "type": "Car", "confidence": 0.85, "level": 1 }
+        ]
+      },
+      "movement": {
+        "pattern": "STATIONARY",
+        "centerPoint": {
+          "latitude": 51.1735,
+          "longitude": -1.8218,
+          "altitude": 95.0
+        },
+        "radiusM": 0.0,
+        "speedMps": 0.0
+      }
+    }
+  ]
+}

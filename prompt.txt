@@ -1,0 +1,3 @@
+I have attached the BSI Flex 335 v2.0 ICD and the detection_report.proto. Please generate a Maven Java project based on the attached Project Specification.
+
+Key Requirement: Use JsonFormat.printer().print(message) from the Protobuf Java Util library to ensure the JSON output matches the SAPIENT standard exactly. The movement logic must use UTM meters to ensure smooth, realistic paths for the ORBIT and FIGURE_8 patterns.
